@@ -1,0 +1,4 @@
+#!/bin/sh
+tar -czf deploy.tgz dist
+scp -P 9022 deploy.tgz cuanti_user@cuanti.psico.edu.uy:~/
+rm deploy.tgz

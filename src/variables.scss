@@ -1,0 +1,34 @@
+$color_0: #993333;
+$color_1: #339933;
+$color_2: #333399;
+$color_3: #333333;
+
+$color_bg_0: #993333;
+$color_bg_1: #339933;
+$color_bg_2: #333399;
+$color_bg_3: #333333;
+
+$color_fg_0: #fff;
+$color_fg_1: #fff;
+$color_fg_2: #fff;
+$color_fg_3: #fff;
+
+$grey: #ccc;
+
+table {
+  border-collapse: collapse;
+
+  th {
+    border-collapse: collapse;
+    border: solid 1px;
+  }
+
+  td {
+    border-collapse: collapse;
+    border: solid 1px;
+  }
+}
+
+table.bordered {
+  border: solid 3px;
+}
